@@ -16,3 +16,7 @@ The end result will be output machine templates that run a basic Ubuntu 12.04 LT
 1.  To create a VMWare Fusion machine run the command (from the git checkout directory) `packer build vmware-example.json`
 1.  To create an Amazon AMI run the command `packer build ami-example.json`
 1.  To create both at the same time, run `packer build system-build.json`
+
+
+**NOTE**:  There might be some issues downloading the ubuntu preseed file based on your local network environment - you can
+also download the preseed cfg file and host it on a 'local' web server.
