@@ -1,3 +1,3 @@
 #!/bin/bash
-apt-get update;
-apt-get install apache2 -y;
+apt-get upgrade -f;
+apt-get install git -y;
